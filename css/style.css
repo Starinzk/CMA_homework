@@ -14,15 +14,92 @@
   zoom: 1; /* ie 6/7 */
 }
 
+
 /***** GENERIC STYLES *************/
 /**********************************/
+body{
+	font-family: "Myriad Pro" sans-serif;
+    color: black;
+    line-height: 1.5em;
+}
 
+nav a{
+	color:#db2c42;
+}
+h4{
+	color: white;
+}
+.site_header{
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba( 206, 206, 206, 1.0 )
+}
 
+.site_footer{
+    background-color: #333333;
+    padding: 60px 0;
+}
 
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.logo{
+	display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.main_navigation{
+    display: block;
+    text-align: center;
+}
 
+.main_navigation ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
 
+.main_navigation li{
+    display: block;
+    margin-bottom: 5px;
+    border: 1px solid rgba( 206, 206, 206, 1.0 );
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main_navigation a{
+	text-decoration: none;
+}
+.search{
+	background-color: #edeced;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.search_field{
+	width: 90%;
+	height: 25px;
+	display: block;
+	margin:0 auto;
+	border-radius: 5px;
 
-
+}
+.search_button{
+	width: 92%;
+	display: block;
+	margin:0 auto;
+	border-radius: 5px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background: #db2c42;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /***** SPECIFIC STYLES ************/
 /**********************************/
