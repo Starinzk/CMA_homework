@@ -34,6 +34,7 @@ h4{
 h3{
 	color: #c8c7c8;
 }
+@media screen and (min-width: 320px){ 
 .six_museums{
 	color: red;
 
@@ -44,7 +45,7 @@ h3{
 }
 .site_header{
     padding-bottom: 40px;
-    border-bottom: 1px solid rgba( 206, 206, 206, 1.0 )
+    border-bottom: 1px solid rgba( 206, 206, 206, 1.0 );
 }
 
 .site_footer{
@@ -159,6 +160,9 @@ h3{
 	padding-left: 5px;
 	font-size: small;
 }
+.seventyfive_club h2{
+	text-align: center;
+}
 .twofifty_club{
 	background-color: white;
 	padding: 15px;
@@ -170,12 +174,15 @@ h3{
 	padding-left: 5px;
 	font-size: small;
 }
+.twofifty_club h2{
+	text-align: center;
+}
 .select_options{
 	font-size: small;
 	border-bottom: 1px solid rgba( 206, 206, 206, 1.0 );
 
 }
-.complete_registration {
+.complete_registration{
 	width: 92%;
 	display: block;
 	margin:0 auto;
@@ -220,7 +227,10 @@ h3{
 	color: red;
 }
 
+.tickets h2{
+	text-align: center;
 
+}
 .membership{
     display: block;
     text-align: center;
@@ -275,11 +285,540 @@ h3{
 }
 .site_footer li{
 	display: inline-block;
+	padding:5px;
+	padding-bottom: 0;
 }
 .site_footer a{
 	font-size: small;
-	color: #4d98ae;
+	color: #4d98ae;   
+}
+
 }
 /***** SPECIFIC STYLES ************/
 /**********************************/
 
+
+@media screen and (min-width: 660px){
+
+
+
+.search_field{
+	display: inline-block;
+	width: 60%;
+
+}
+
+.search_button{
+	display: inline-block;
+	width: 35%;
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+.membership_info ul{
+	margin-left: 0 auto;
+	padding-left: 0;
+
+}
+.membership_form{
+	display: block;
+	width: 100%;
+
+}
+
+
+.first_part{
+	display: inline-block;
+	width: 45%;
+
+}
+.second_part{
+	display: inline-block;
+	padding-left: 20px;
+	width: 45%;
+
+}
+
+.seventyfive_club h2{
+	text-align: center;
+}
+.twofifty_club h2{
+	text-align: center;
+}
+
+.select_membership{
+	display: inline-block;
+	width: 45%;
+}
+.select_options{
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+.complete_registration{
+	width: 40%;
+	display: block;
+	margin-right:0;
+	border-radius: 5px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    background: #db2c42;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.select_options{
+	border:none;
+}
+
+
+.page_content{
+	border: none;
+}
+.links{
+	padding-bottom: 40px;
+}
+.tickets{
+    display:block;
+    text-align: center;
+    width: 30%;
+}
+
+.tickets ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+.tickets li{
+    display: block;
+    margin-bottom: 5px;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.tickets a{
+	text-decoration: none;
+	color: red;
+	font-size: small;
+}
+.membership{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+
+}
+
+.membership ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+.membership li{
+    display: block;
+    margin-bottom: 5px;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.membership a{
+	text-decoration: none;
+	color: red;
+	font-size: small;
+}
+
+.donations{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.donations ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+.donations li{
+    display: block;
+    margin-bottom: 5px;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.donations a{
+	text-decoration: none;
+	color: red;
+	font-size: small;
+}
+.site_footer ul{
+	display: inline-block;
+	list-style: none;
+}
+.site_footer li{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.site_footer a{
+	font-size: 1em;
+	color: #4d98ae;
+}
+
+
+
+@media screen and (min-width: 840px){
+.site_header{
+	border: none;
+}
+.logo{
+	display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.main_navigation{
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main_navigation ul{
+    list-style: none;
+    margin: 0;
+   
+    display: inline-block;
+    border: 1px solid rgba( 206, 206, 206, 1.0 );
+    width: 100%;
+
+}
+
+.main_navigation li{
+    display: inline-block;
+
+   	border: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main_navigation a{
+	text-decoration: none;
+	padding: 20px;
+}
+.search{
+	position: absolute;
+	right: 0;
+	top:0;
+	background: none;
+}
+.search_field{
+	
+	width:50%;
+	height:20%;
+
+}
+
+.search_button{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: small;
+	
+}
+.page_title{
+	background-color: #edeced;
+	padding:20px;
+	margin-bottom:40px; 
+}
+.page_title h3{
+	color: #9c9a9b;
+}
+
+.membership_info ul{
+	margin-left: 0 auto;
+	padding-left: 0;
+
+}
+.membership_form{
+	display: block;
+	width: 100%;
+	padding-bottom: 40px;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 auto;
+}
+.membership_form h3{
+	padding: 20px;
+	padding-bottom: 0;
+}
+.membership_form h2{
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.first_part{
+	display: inline-block;
+	width: 45%;
+	padding-left: 20px;
+
+}
+.second_part{
+	display: inline-block;
+	padding-left: 20px;
+	width: 45%;
+
+}
+.decision_time{
+	
+	
+	background-color: #cecece;
+	padding-top: 20px;
+	padding-left: 40px;
+	border-radius: 4px;
+	padding-right: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 40px;
+
+
+}
+.fifty_club{
+	display: inline-block;
+	width: 25%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 0;
+	margin-right: 10px;
+	margin-left: 0;
+	margin-bottom: 0;
+	vertical-align: top;
+}
+.fifty_club h2{
+	padding:0;
+	margin: 0;
+
+}
+.seventyfive_club{
+	display: inline-block;
+	width: 25%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 0;
+	margin-right: 10px;
+	margin-left: 0;
+	margin-bottom: 0;
+	vertical-align: top;
+}
+.seventyfive_club h2{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.twofifty_club{
+	display: inline-block;
+	width: 25%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 0;
+	margin-right: 10px;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+.twofifty_club h2{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+}
+
+.select_membership{
+	display: inline-block;
+	width: 45%;
+	margin-left: 20px;
+	font-size: small;
+}
+.select_options{
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+.complete_registration{
+	width: 25%;
+	display: block;
+	margin-right:20px;
+	border-radius: 5px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background: #60dbff;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+}
+.select_options{
+	border:none;
+}
+
+
+.page_content{
+	border: none;
+}
+.links{
+	padding-bottom: 40px;
+}
+.tickets{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.tickets ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+.tickets li{
+    display: block;
+    margin-bottom: 5px;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.tickets a{
+	text-decoration: none;
+	color: red;
+	font-size: small;
+}
+.tickets h2{
+	padding: 10px;
+	margin: 0;
+}
+.membership{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+
+}
+
+.membership ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+.membership li{
+    display: block;
+    margin-bottom: 5px;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.membership a{
+	text-decoration: none;
+	color: red;
+	font-size: small;
+}
+.membership h2{
+	margin: 0;
+	padding: 10px;
+}
+
+.donations{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.donations ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+.donations li{
+    display: block;
+    margin-bottom: 5px;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.donations a{
+	text-decoration: none;
+	color: red;
+	font-size: small;
+}
+.donations h2{
+	margin: 0;
+	padding: 10px;
+
+}
+.site_footer ul{
+	display: inline-block;
+	list-style: none;
+}
+.site_footer li{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.site_footer a{
+	font-size: 1em;
+	color: #4d98ae;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
